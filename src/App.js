@@ -1,20 +1,19 @@
-// App.js
 import React from "react";
-import "./App.css"; // Tailwind CSS included here
+import { Layout } from "antd";
+import "./App.css"; // CSS faylini import qilamiz
 import Sertf from "./img/sertf1.png";
+const { Content } = Layout;
 
-const App = () => {
+function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-white px-4">
-      <div className="w-full max-w-[210mm] max-h-[297mm] aspect-[210/297]">
-        <img
-          src={Sertf}
-          alt="A4 Document"
-          className="w-full h-full object-contain md:object-cover"
-        />
-      </div>
-    </div>
+    <Layout style={{ minHeight: "100vh" }}>
+      <Content style={{ backgroundColor: "white", display: "flex", justifyContent: "center", alignItems: "center" }}>
+        <div className="container">
+          <img src={Sertf } alt="A4 format image" className="image" />
+        </div>
+      </Content>
+    </Layout>
   );
-};
+}
 
 export default App;
