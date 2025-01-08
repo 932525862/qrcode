@@ -1,7 +1,7 @@
 import React from "react";
 import { Layout } from "antd";
 import "./App.css"; // CSS faylini import qilamiz
-import Sertf from "./img/sertf1.png";
+import Sertf from "./img/sertf14.jpg";
 const { Content } = Layout;
 
 function App() {
