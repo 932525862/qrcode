@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { Layout } from "antd";
 import "./App.css"; // CSS faylini import qilamiz
-import Sertf from "./img/qrcode2020.png";
+import Sertf from "./img/merkuron.jpg";
 
 const { Content } = Layout;
 
