@@ -5,7 +5,7 @@
 }
 
 .container {
-  width: 210mm;
+  width: 212mm;
   height: 297mm; /* A4 format */
   display: flex;
   justify-content: center;
